@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: var(--primary-font-family);
+}
+
+.navbar {
+    background-color: rgb(255, 213, 2);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.navbar-image {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    align-self: center;
+}
+
+
+.navbar .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 30%;
+}
+
+.navbar li {
+    flex: 1;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: background-color 0.3s;
+    color: 0.3;
+    text-decoration: 0, 3;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 213, 2);
+    text-decoration: underline;
+}
+
+.natale {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+}
+
+.natale:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.natale:link,
+.natale:visited {
+    background-color: white;
+    color: red;
+    text-decoration: none;
+}
+
+.natale:hover {
+    background-color: black !important;
+    color: white;
+    text-decoration: none !important;
+}
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    }
+    #menu-toggle {
+    display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .navbar .menu {
+        display: none;
+        width: 100%;
+        }
+        .navbar .menu li {
+        display: block;
+        text-align: left;
+        }
+        #menu-toggle:checked + .hamburger + .menu {
+        display: block;
+        }
+        .hamburger {
+        display: block;
+        }
+        }
+
+.svg {
+    width: 30px;
+    height: auto;
+  display: flex;
+
+
+}
+
+.lego-image {
+    width: 100%;
+    height: auto;
+    align-self: center;
+
+}
+
+.spazio {
+    flex-grow: 1;
+}
+
+.img-background {
+    background-image: url("https://www.lego.com/cdn/cs/set/assets/bltbf451d66a9ede866/77073-Home-202410-Home-P-Hero-Standard-Large-v2.jpg?format=webply&fit=crop&quality=70&width=1600&height=500&dpr=1.5");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.title { 
+    margin: auto; 
+    font-size: x-large;
+    font-family: cera pro, sans-serif;
+}
+
+.acquistare {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.compraora {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.compraora:hover {
+    text-decoration: underline;
+}
+
+.containerimg{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteinericone{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
