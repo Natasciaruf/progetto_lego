@@ -1,0 +1,198 @@
+
+.content1 {
+    background-color: rgb(186, 182, 182);
+    font-size: 10px;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #333;
+}
+
+.Logo {
+    max-width: 100px;
+    
+    max-height: 50px;
+
+    width: auto;
+    height: auto;
+}
+
+
+footer {
+    background-color: #201d48;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-media a {
+    color: #fff;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-info li {
+    margin-bottom: 6px;
+}
+
+footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    background-color: #201d48;
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+
+    justify-content: space-between !important;
+
+    align-items: center;
+
+}
+
+.footer-bottom h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-bottom .mail {
+    padding-left: 20px;
+}
+
+.footer-bottom .follow {
+    padding-right: 20px;
+}
+
+.email-container {
+    background-color: #201d48;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.email-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.email-submit {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.email-submit .arrow {
+    font-size: 15px;
+
+    transition: transform 0.3s;
+
+}
+
+
+.svg-container {
+    display: flex;
+    gap: 10px;
+    flex: 0%;
+    justify-content: flex-end;
+}
+
+.svg-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.links-container {
+    background-color: #201d48;
+    display: flex;       
+    margin-top: 20px;      
+}
+
+
+/* Stile per i link */
+.links-container a {
+    text-decoration: none;  
+    color: white;         
+    font-size: 14px;        
+    transition: color 0.3s ease;  
+}
+
+.links-container a:hover {
+    text-decoration: overline;         
+}
+
+.system {
+    background-color: #201d48;
+    color: white;
+}

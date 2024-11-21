@@ -1,45 +1,117 @@
 <!DOCTYPE html>
-<html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Navbar</title>
-    </head>
-    <body>
-        <!--NAVBAR LEGO-->
-        <nav class="navbar">
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="hamburger"> ☰ </label>
-            <img src="https://assets.lego.com/logos/v4.5.0/brand-lego.svg"
-                alt="Logo" class="navbar-image">
-            <ul class="menu">
-                <li><a href="#acquista">ACQUISTA</a></li>
-                <li><a href="#scopri">SCOPRI</a></li>
-                <li><a href="#aiuto">AIUTO</a></li>
-                <li><a class="natale" href="#natale">NATALE</a></li>
-            </ul>
-            <!--ICONE NAVBAR-->
-            <div class="spazio"></div>
-            <div class="conteinericone"> 
-            <div class="containerimg"> 
-            <img src="https://www.svgrepo.com/show/532555/search.svg"  class="svg" alt="search"> </div>
-            <img src="https://www.svgrepo.com/show/532473/heart.svg" class="svg"
-                alt="heart">
-            <img src=" https://www.svgrepo.com/show/533028/bag-shopping.svg"
-                class="svg" alt="bag">
-            </div>
-        </nav>
-        <!--SEZIONE COMPRA ORA -->
-        <div class="img-background">
-            <div class="contenuto">
-                <h1 class = "title"> Costruisci l'avventura </h1>
-                <p class="acquistare">Acquista i nuovi set LEGO® Fortnite® qui prima che siano resi
-                    disponibili altrove. </p>
-                <button class="compraora"> Compra ora </button>
-            </div>
-        </div>
-    
+<html>
 
-    </body>
-</html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<title>Lezione CSS</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+
+		<blockquote class="content1">
+			<p> Ti diamo il benvenuto nel LEGO Shop ufficiale, dove troverai giocattoli da costruzione Lego, regali, splendidi da esposizionee molto altro ancora per bambini e adulti. Trova il regalo perfetto per bambini, ragazzi e adulti, per <br>
+                festeggiare i compleanni o altre occasioni come San valentino, la festa della mamma e la festa del papà. Con noi è facile acquistare giocattoli che garantiscono ore di gioco all'insegna del divertimento e della fantasia. Puoi anche 
+                trovare nel Lego per gli adulti, perfetti per ogni tipo di interessi, come auto, videogiochi e molto altro ancora!
+			</p>
+		</blockquote>
+
+		<footer>
+			<div class="footer-container">
+				<div class="footer-section">
+					<ul>
+						<img class="Logo" src="https://assets.lego.com/logos/v4.5.0/brand-lego.svg" alt="logo-lego"> 
+						<li class="Italia"><a href="#">Italia</a></li>
+						<li><a href="#">Carte regalo</a></li>
+						<li><a href="#">Trova l'ispirazione</a></li>
+						<li><a href="#">Cataloghi LEGO</a></li>
+						<li><a href="#">Trova un negozio LEGO</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>CHI SIAMO</h3>
+					<ul>
+						<li><a href="#">Informazioni su LEGO Group</a></li>
+						<li><a href="#">Sala stampa LEGO®</a></li>
+						<li><a href="#">Sostenibilità</a></li>
+						<li><a href="#">Dichiarazione sulla trasparenza della catena di fornitura</a></li>
+						<li><a href="#">Certificazioni dei prodotti LEGO</a></li>
+						<li><a href="#">Lavora in LEGO</a></li>
+						<li><a href="#">Carriere LEGO</a></li>
+						<li><a href="#">Lego compilance line</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>SUPPORTO</h3>
+					<ul>
+						<li><a href="#">Contattaci</a></li>
+						<li><a href="#">Istruzioni</a></li>
+						<li><a href="#">Parti mancanti</a></li>
+						<li><a href="#">Spedizione e resi</a></li>
+						<li><a href="#">Modalità di pagamento</a></li>
+						<li><a href="#">Termini e condizioni</a></li>
+						<li><a href="#"> Richiamo prodotti </a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>ATTRAZIONI</h3>
+					<ul class="footer-attraction">
+						<li><a href="#">LEGO® house</a></li>
+						<li><a href="#">LEGOLAND® Parks</a></li>
+						<li><a href="#">LEGOLAND® Discovery Center</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>ALTRE INFORMAZIONI</h3>
+					<ul class="footer-info">
+						<li><a href="#">LEGO® Magazine (GRATUITO) </a></li>
+						<li><a href="#">LEGO education</a></li>
+						<li><a href="#">LEGO ideas</a></li>
+						<li><a href="#">LEGO foundation</a></li>
+						<li><a href="#">Programma di affiliazione </a></li>
+					</ul>
+				</div>
+				<div class="footer-section"> 
+					<ul class="footer-info">
+						<li><a href="#"> </a></li>
+					</ul>
+			</div>
+		</footer>
+			<div class="footer-bottom">
+				<h3 class="mail"> ISCRIVITI ALLE E-MAIL DI MARKETING</h3>
+				<h3 class="follow"> SEGUICI </h3>
+			</div>
+			<div class="email-container">
+				
+				<!-- Aggiungiamo le 4 immagini SVG -->
+			<div class="email-form">
+				<input type="email" placeholder="Inserisci la tua email" class="email-input" />
+				<button class="email-submit">
+					<span class="arrow">&#8594;</span> <!-- Freccia destra -->
+				</button>
+				<div class="svg-container">
+					<img src="https://www.lego.com/_next/static/images/facebook-895fba5a20c4facacb9655dade1d256c.svg" alt="SVG 1" class="svg-icon" />
+					<img src="https://www.lego.com/_next/static/images/twitter-4bee8e762dd6042960b804964fd64103.svg" alt="SVG 2" class="svg-icon" />
+					<img src="https://www.lego.com/_next/static/images/instagram-e47f0d4b15ff76083b415be91e96f43b.svg" alt="SVG 3" class="svg-icon" />
+					<img src="https://www.lego.com/_next/static/images/youtube-c51b2c62583921aae813fdc55df5f9d2.svg" alt="SVG 4" class="svg-icon" />
+				</div>
+				</div>
+			</div>
+			<div class="links-container">
+				<a href="#">Informativa sulla privacy</a>
+				<a href="#">Cookie</a>
+				<a href="#">Informativa legale</a>
+				<a href="#">Termini d'uso</a>
+				<a href="#">Accessibilità</a>
+				<a href="#">Impostazioni dei cookie</a>
+			</div>
+			<div class="system">
+				<p class="system">LEGO System A/S, DK-7190 Billund, Denmark. Per effettuare acquisti online è necessario essere maggiorenni. LEGO, il logo LEGO, la Minifigure, DUPLO, il logo FRIENDS, il logo MINIFIGURES, DREAMZzz, NINJAGO, VIDIYO e MINDSTORMS sono marchi registrati di LEGO Group.
+					 ©2024 The LEGO Group. Tutti i diritti riservati. L'uso di questo sito implica l'accettazione dei Termini d’uso.</p>
+			</div>
+		</blockquote>
+	</body>
+	</html>
+	
